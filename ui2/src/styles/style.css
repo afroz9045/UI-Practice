@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F6F6F6;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+}
+header{
+    padding: 1.5em 0;
+}
+ul li .fa-angle-down{
+    margin-left: .5em;
+}
+nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-elements {
+    flex: 1;
+}
+
+.nav-subSection {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    background-color: #f2dc42;
+    width: 2.5em;
+    margin: auto 1em;
+    flex-basis: 2.5em;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.logo,
+.nav-elements,
+.nav-subSection {
+    width: 30%;
+}
+
+.nav-subSection .icons{
+    align-self: center;
+}
+nav ul {
+    margin-left: 2em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-icons {
+    align-self: flex-end;
+    width: 2.5em;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+button.submit {
+    background-color: inherit;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-right: 3em;
+    padding: 5px 30px;
+    align-self: center;
+}
+
+.section1{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.categories ul{
+    display: flex;
+}
+.categories ul li{
+    margin-right: 2em;
+}
+.categories-settings-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.categories,.settigs-bookmark{
+    flex: 1;
+}
+.settigs-bookmark{
+    text-align: right;
+}
+.settigs-bookmark i{
+    margin-left: 1em;
+}
+.cards-section{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    background-color: white;
+    flex-basis: 31%;
+    padding: 25px;
+}
+.next-page-btn button{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.card img{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+.page-number{
+    text-align: center;
+    display: inline-block;
+    width: 1em;
+    border-radius: 5px;
+    background-color: white;
+}
+
+footer{
+    margin: 3em auto;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.discover-collection a{
+    display: block;
+}
+.discover-collection,.next-page-btn,.page{
+    flex-basis: 30%;
+}
