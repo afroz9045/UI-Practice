@@ -9,16 +9,19 @@ body {
     background-color: #F6F6F6;
 }
 
-main{
+main {
     width: 80%;
     margin: auto;
 }
-header{
+
+header {
     padding: 1.5em 0;
 }
-ul li .fa-angle-down{
+
+ul li .fa-angle-down {
     margin-left: .5em;
 }
+
 nav {
     width: 80%;
     margin: auto;
@@ -52,9 +55,10 @@ nav {
     width: 30%;
 }
 
-.nav-subSection .icons{
+.nav-subSection .icons {
     align-self: center;
 }
+
 nav ul {
     margin-left: 2em;
     display: flex;
@@ -74,73 +78,206 @@ button.submit {
     background-color: inherit;
     border: 1px solid gray;
     border-radius: 10px;
-    margin-right: 3em;
-    padding: 5px 30px;
+    margin-right: 1.5em;
+    padding: 10px 24px;
     align-self: center;
 }
 
-.section1{
-    width: 50%;
+.section1 {
+    width: 60%;
     margin: auto;
+    margin-bottom: 3em;
     text-align: center;
 }
-.categories ul{
+
+.section1 h1 {
+    font-size: 1.8em;
+    font-weight: 400;
+    padding-bottom: .5em;
+}
+
+.section1 p {
+    font-size: .9em;
+    font-weight: 400;
+    color: gray;
+    padding-bottom: 1em;
+
+}
+
+.section2 {
+    margin-bottom: 3em;
+}
+
+.inputs-grouping {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.inputs-grouping select {
+    background-color: white;
+    padding: 10px 5px;
+    border-radius: 10px;
+    border: 1px solid #efefef;
+    box-shadow: 2px .0510m black;
+    box-shadow: 2px 2px lightgray;
+    font-weight: 700;
+
+}
+
+.inputs-grouping input {
+    flex-basis: 65%;
+    border: none;
+    font-size: .9em;
+}
+
+.inputs-grouping i {
+    align-self: center;
+    font-size: 1.5em;
+    padding-right: .5em;
+    color: gray;
+
+}
+
+.categories ul {
     display: flex;
 }
-.categories ul li{
-    margin-right: 2em;
+
+.categories ul li {
+    margin-right: 1.2em;
 }
-.categories-settings-wrapper{
+
+.categories-settings-wrapper {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 1.5em;
 }
-.categories,.settigs-bookmark{
+
+.premium-orange {
+    color: rgb(206, 71, 22);
+}
+
+.free-skyblue {
+    color: rgb(39, 135, 173);
+}
+
+.categories,
+.settigs-bookmark {
     flex: 1;
 }
-.settigs-bookmark{
+
+.settigs-bookmark {
     text-align: right;
+    margin-right: 1em;
 }
-.settigs-bookmark i{
+
+.settigs-bookmark i {
     margin-left: 1em;
 }
-.cards-section{
+
+.cards-section {
     display: flex;
     justify-content: space-between;
 }
-.card{
+
+.card {
     background-color: white;
     flex-basis: 31%;
-    padding: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
 }
-.next-page-btn button{
-    padding: 10px 15px;
+
+.card h2 {
+    font-size: 1em;
+    font-weight: 200;
+    color: #c2c2c2;
+}
+
+.card h2 span {
+    font-size: 2em;
+    font-weight: 200;
+    color: black;
+}
+.next-page-btn{
+    text-align: center;
+}
+
+.next-page-btn button {
+    padding: 10px 30px;
+    font-weight: 700;
     border: none;
     border-radius: 5px;
+    color: rgb(37, 37, 37);
     background-color: #fff;
 }
-.card img{
+
+.card img {
     display: block;
     width: 100%;
     border-radius: 10px;
 }
-.page-number{
+
+.page-number {
     text-align: center;
     display: inline-block;
     width: 1em;
+    border: 1px solid #efefef;
     border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 1.2em;
+    font-weight: 700;
     background-color: white;
 }
 
-footer{
+.download {
+    width: 100%;
+}
+
+.download a {
+    color: #000;
+    font-weight: 700;
+}
+
+.fa-download {
+    padding-left: .5em;
+}
+
+footer {
     margin: 3em auto;
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
 }
-.discover-collection a{
-    display: block;
+
+footer a {
+    color: #000;
+    margin-bottom: .1em;
 }
-.discover-collection,.next-page-btn,.page{
+
+.discover-collection a {
+    display: block;
+    font-weight: 500;
+}
+
+.discover-collection,
+.next-page-btn,
+.page {
     flex-basis: 30%;
+}
+.page{
+    text-align: right;
+}
+.page span {
+    font-size: .8em;
+}
+
+.page .fa-angle-left,
+.page .fa-angle-right {
+    background-color: #dfdede;
+    padding: 5px;
+    border-radius: 5px;
 }
