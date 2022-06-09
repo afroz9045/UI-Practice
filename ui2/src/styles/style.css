@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+li,a,button{
+    cursor: pointer;
+}
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #F6F6F6;
@@ -76,7 +78,8 @@ ul li {
 
 button.submit {
     background-color: inherit;
-    border: 1px solid gray;
+    color: #a1a1a1;
+    border: 1px solid #a1a1a1;
     border-radius: 10px;
     margin-right: 1.5em;
     padding: 10px 24px;
