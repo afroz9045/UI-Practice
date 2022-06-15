@@ -1,0 +1,64 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+}
+
+img {
+  width: 80%;
+}
+.btn{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+.btn button{
+  padding: 10px 20px;
+  background-color: #4ECCA3;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5em;
+  border-radius: 10px;
+  color: #fff;
+  margin: auto;
+}
+.btn button:active{
+  background-color: #00ca87;
+}
+.result{
+  width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+.result h1{
+  
+  font-size: 2em;
+}
+#player1,#player2{
+  padding: 10px;
+}
